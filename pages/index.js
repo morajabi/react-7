@@ -27,7 +27,7 @@ export default function App(props) {
         resizeMode="repeat"
         style={{ width: "100%", height: 120 }}
       />
-      سبد خرید
+      سبد خرید جدید برای ورسل تبریک!
       {products.map((product, index) => (
         <Product
           name={product.name}
